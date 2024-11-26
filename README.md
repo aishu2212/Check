@@ -29,7 +29,6 @@ Contains actions that interact with the UI. Some common actions are:
 - `performClickOnNodeWithTag(composeTestRule, tag)`: Performs a click on the node identified by the given test tag.
 - `performClickOnNodeWithText(composeTestRule, text)`: Performs a click on the node identified by the given text.
 - `scrollToNodeWithText(composeTestRule, text)`: Scrolls to a node containing the specified text.
-- `performClickOnNodeWithTag(composeTestRule, testTag)`: Performs a click on the node with the specified test tag.
 - `scrollTo(composeTestRule, testTag)`: Scrolls the view until the element with the specified tag is visible.
 
 #### **ComposeAssertions**:
@@ -101,6 +100,6 @@ To run the tests, use the Android Studio test runner or Gradle.
 3. Right-click on the test method and select **Run**.
 
 ### Using Gradle:
-Run the following command from the terminal:
+Run the following command from the terminal from Android Folder:
 ```bash
 ./gradlew connectedAndroidTest
